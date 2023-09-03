@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator | ndd</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href = "style.css">
+	</head>
+	<body>
+		<div class="dd">
+			<h2 id = "result" class="screen">0</h2>
+			<section class>
+				<div class="but-row">
+					<button id = "clear" class = "but double" onclick = "Clear()"> C </button>
+					<button id = "delete" class = "but" onclick="Del()"> Del </button>
+					<button id = "divide" class = "but" onclick="Div()"> &divide; </button>
+				</div>
+				<div class="but-row">
+					<button id = "7" class = "but" onclick="seven()">7</button>
+					<button id = "8" class = "but" onclick="eight()">8</button>
+					<button id = "9" class = "but" onclick="nine()">9</button>
+					<button id = "mul" class = "but" onclick="mul()">&times;</button>
+				</div>
+				<div class="but-row">
+					<button id = "4" class = "but" onclick="four()">4</button>
+					<button id = "5" class = "but" onclick="five()">5</button>
+					<button id = "6" class = "but" onclick="six()">6</button>
+					<button id = "minus" class = "but" onclick="minus()">&minus;</button>
+				</div>
+				<div class="but-row">
+					<button id = "1" class = "but" onclick="one()">1</button>
+					<button id = "2" class = "but" onclick="two()">2</button>
+					<button id = "3" class = "but" onclick="three()">3</button>
+					<button id = "plus" class = "but" onclick="plus()">&plus;</button>
+				</div>
+				<div class="but-row">
+					<button id="0" class = "but triple" onclick="zero()">0</button>
+					<button id="equal" class = "but" onclick="equal()">&equals;</button>
+				</div>
+			</section>
+		</div>
+		<script src="script.js"> </script>
+	</body>
+</html>
