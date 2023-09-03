@@ -1,2 +1,2 @@
 # Calculator
-Calculator -.-
+calculator :D
